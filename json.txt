@@ -1,0 +1,63 @@
+[
+    {
+        "domain": "Youtube.com",
+        "expirationDate": 1625568042.882339,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "_elements_session_4",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "cnZMV2Rha3pzRHlhZjJmNEZnQTFGK3YwbGZuditrOFlUMTVJVUJLaFE1Q0xKS2JveFd1dEd3L3ZMYTh6S1d5K0ZmMEhmblF1ZzMzWGl6L2FtdDltbHBPVm9SeWJPVmFiK3FkeGZmbnhaYzZLbmJ2S3ZEanFUSS9JWmhuY1RmZVY2ZGwxQk5zQjJxK3VZaWNtaFJBZjlnPT0tLTEzYi9yVXJ1KzZ6aHFCU2xadWxjUmc9PQ%3D%3D--4256607e9d9021716a09051bbdeae5d4e2566242"
+    }
+]
+
+[
+    {
+        "domain": "gmail.com",
+        "expirationDate": 1625568042.882339,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "_elements_session_4",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "cnZMV2Rha3pzRHlhZjJmNEZnQTFGK3YwbGZuditrOFlUMTVJVUJLaFE1Q0xKS2JveFd1dEd3L3ZMYTh6S1d5K0ZmMEhmblF1ZzMzWGl6L2FtdDltbHBPVm9SeWJPVmFiK3FkeGZmbnhaYzZLbmJ2S3ZEanFUSS9JWmhuY1RmZVY2ZGwxQk5zQjJxK3VZaWNtaFJBZjlnPT0tLTEzYi9yVXJ1KzZ6aHFCU2xadWxjUmc9PQ%3D%3D--4256607e9d9021716a09051bbdeae5d4e2566242"
+    }
+]
+
+[
+    {
+        "domain": "google.com",
+        "expirationDate": 1625568042.882339,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "_elements_session_4",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "cnZMV2Rha3pzRHlhZjJmNEZnQTFGK3YwbGZuditrOFlUMTVJVUJLaFE1Q0xKS2JveFd1dEd3L3ZMYTh6S1d5K0ZmMEhmblF1ZzMzWGl6L2FtdDltbHBPVm9SeWJPVmFiK3FkeGZmbnhaYzZLbmJ2S3ZEanFUSS9JWmhuY1RmZVY2ZGwxQk5zQjJxK3VZaWNtaFJBZjlnPT0tLTEzYi9yVXJ1KzZ6aHFCU2xadWxjUmc9PQ%3D%3D--4256607e9d9021716a09051bbdeae5d4e2566242"
+    }
+]
+
+[
+    {
+        "domain": "discord.com",
+        "expirationDate": 1625568042.882339,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "_elements_session_4",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "cnZMV2Rha3pzRHlhZjJmNEZnQTFGK3YwbGZuditrOFlUMTVJVUJLaFE1Q0xKS2JveFd1dEd3L3ZMYTh6S1d5K0ZmMEhmblF1ZzMzWGl6L2FtdDltbHBPVm9SeWJPVmFiK3FkeGZmbnhaYzZLbmJ2S3ZEanFUSS9JWmhuY1RmZVY2ZGwxQk5zQjJxK3VZaWNtaFJBZjlnPT0tLTEzYi9yVXJ1KzZ6aHFCU2xadWxjUmc9PQ%3D%3D--4256607e9d9021716a09051bbdeae5d4e2566242"
+    }
+]
