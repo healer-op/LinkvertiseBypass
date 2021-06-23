@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="description" content="Linkvertise Bypasser">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bypass Link 🐱‍💻LinkVertise Links With Just A Click">
+	<meta property="og:title" content="Linkvertise Bypasser">
+	<meta property="og:site_name" content="Linkvertise Bypasser">
+	<meta property="og:description" content="Bypass Link 🐱‍💻LinkVertise Links With Just A Click.">
+	<meta property="og:image" content="https://cdn.discordapp.com/attachments/758947557417680937/857121669750587402/ezgif.com-gif-maker.gif">
+	<meta name="twitter:card" content="https://cdn.discordapp.com/attachments/758947557417680937/857121669750587402/ezgif.com-gif-maker.gif">
+	<link rel="shortcut icon" href="https://img.icons8.com/cotton/2x/edit.png" type="image/x-icon">  
+<style>
+*{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+div.a {
+  text-align: center;
+}
+.healer{
+    margin-top: 10%;
+}
+
+</style>
+</head>
+<body>
+    <div class="a">
+<html>
+<head>
+            
+            <h2 class="healer">🐱‍💻Linkvertise Bypasser | Made by Healer#9999</H2>
+                <br/>
+                Server Status: 
+                <p id="demo" style="color:rgb(1, 223, 1);"></p>
+<script>
+document.getElementById("demo").innerHTML =
+"📶Ping " + (Math.floor(Math.random() * 36)+22)+`ms`;
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+</body>
+
+</html>
+
+<html>
+<head>
+<style> 
+body {
+  background: url(Background\ 23.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #94e8f3;
+}
+</style>
+</head>
+<body>
+
+</body>
+</html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>Linkvertise Bypasser</title>
+        <style type="text/css">
+            li.success {
+                background-color: rgb(0, 0, 0);
+            }
+            li.failure {
+                background-color: #ffcccb;
+            }
+        </style>
+        <script>
+            let supported_urls = [
+                new RegExp('^https?://(linkvertise[.]com|linkvertise[.]net|link-to[.]net|linkvertise[.]download|file-link[.]net|direct-link[.]net|up-to-down[.]net)/[0-9]+/[^/]+'),
+                new RegExp('^https?://(linkvertise[.]com|linkvertise[.]net|link-to[.]net|linkvertise[.]download|file-link[.]net|direct-link[.]net|up-to-down[.]net)/download/[0-9]+/[^/]+/.+'),
+                new RegExp('^https?://(linkvertise[.]com|linkvertise[.]net|link-to[.]net|linkvertise[.]download|file-link[.]net|direct-link[.]net|up-to-down[.]net)/premium-redirect/[0-9]+'),
+                new RegExp('^https?://(linkvertise[.]com|linkvertise[.]net|link-to[.]net|linkvertise[.]download|file-link[.]net|direct-link[.]net|up-to-down[.]net)/[0-9]+/[^/]+/dynamic/?'),
+                new RegExp('^https?://(aclabink[.]com|adf[.]ly|aporasal[.]net|atominik[.]com|ay[.]gy|brightvar[.]bid|clearload[.]bid|dapalan[.]com|ducolomal[.]com|fawright[.]com|flyserve[.]co|gdanstum[.]net|j[.]gs|kializer[.]com|microify[.]com|q[.]gs|raboninco[.]com|skamaker[.]com|skamason[.]com|tinyium[.]com|u[.]bb|yamechanic[.]com|yoineer[.]com|yoitect[.]com|zipansion[.]com)/.'),
+                new RegExp('^https?://bit[.]ly/.'),
+            ];
+
+            let bypass = async function(url) {
+                let resp = await fetch("https://bypass.bot.nu/bypass2?url=" + encodeURIComponent(url));
+                let j = await resp.json()
+
+                let time_ms = "";
+                if (typeof j.time_ms !== "undefined") {
+                    time_ms = "|" + j.time_ms + "ms";
+                }
+
+                console.log(j);
+
+                let li = document.createElement("li");
+
+                if (j.success) {
+                    li.classList.add("success");
+                    li.textContent = "[" + j.plugin + time_ms + "] " + url + " - ";
+                    let a = document.createElement("a");
+                    a.textContent = j.destination;
+                    a.href = j.destination;
+                    a.rel = "nofollow noreferrer noopener";
+                    a.target = "_blank";
+                    li.appendChild(a);
+                } else {
+                    li.classList.add("failure");
+                    li.textContent =  "[" + j.plugin + time_ms + "] " + url + " - " + j.msg;
+                }
+
+                document.querySelector("ul").prepend(li);
+
+                if (j.success && url !== j.destination && supported_urls.some(r => j.destination.match(r))) {
+                    await bypass(j.destination);
+                }
+                alert(a);
+            };
+
+            let submit = async function(e) {
+                e.preventDefault();
+
+                let url = document.querySelector("input").value.trim();
+
+                await bypass(url);
+            };
+
+            let onload = function() {
+                document.querySelector("form").addEventListener("submit", submit)
+            };
+
+            window.addEventListener('DOMContentLoaded', onload);
+        </script>
+
+    </head>
+    <body>
+        <html>
+        <p> 
+            🐱‍💻LinkVertise Bypasser<br/>
+            Please enter down below a Linkvertise link to bypass.<br/>
+               <br>
+                  <br>
+            <form action="#">
+                <input style="color:rgb(0, 0, 0);" placeholder="Link"/><br/>
+
+                 <br>
+                <button style="color:rgb(0, 0, 0);">Bypass Link</button>
+                <button  style="color:rgb(0, 0, 0);"type="button" onclick="location.reload();">Clear Results</button>
+            </form>
+        </p>
+        <p>
+            Bypassed Links:<br/>
+            <ul></ul>
+        </p>
+        <br>
+        <p>Made By <a target="_blank" href="https://github.com/healer-op">HealerOp</p>
+
+    </body>
+</html>
+
